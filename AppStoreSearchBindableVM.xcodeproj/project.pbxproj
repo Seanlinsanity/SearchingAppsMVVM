@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1413FD3824431F5400E4C452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD3724431F5400E4C452 /* AppDelegate.swift */; };
 		1413FD3A24431F5400E4C452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD3924431F5400E4C452 /* SceneDelegate.swift */; };
-		1413FD3C24431F5400E4C452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD3B24431F5400E4C452 /* ViewController.swift */; };
 		1413FD3F24431F5400E4C452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1413FD3D24431F5400E4C452 /* Main.storyboard */; };
 		1413FD4124431F5600E4C452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1413FD4024431F5600E4C452 /* Assets.xcassets */; };
 		1413FD4424431F5600E4C452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1413FD4224431F5600E4C452 /* LaunchScreen.storyboard */; };
+		1413FD4C24431F7200E4C452 /* AppsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD4B24431F7200E4C452 /* AppsSearchController.swift */; };
+		1413FD4E2443201200E4C452 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD4D2443201200E4C452 /* BaseListController.swift */; };
+		1413FD502443201E00E4C452 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD4F2443201E00E4C452 /* SearchResult.swift */; };
+		1413FD522443203400E4C452 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD512443203400E4C452 /* SearchResultCell.swift */; };
+		1413FD542443204E00E4C452 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD532443204E00E4C452 /* UIView+Layout.swift */; };
+		1413FD562443205900E4C452 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD552443205900E4C452 /* Service.swift */; };
+		1413FD582443208E00E4C452 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD572443208E00E4C452 /* VerticalStackView.swift */; };
+		1413FD8D2443341E00E4C452 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD8C2443341E00E4C452 /* Bindable.swift */; };
+		1413FD8F2443373300E4C452 /* AppsSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413FD8E2443373300E4C452 /* AppsSearchViewModel.swift */; };
+		1708353FAA5A413DDE316D4D /* Pods_AppStoreSearchBindableVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342ECDCA05D4010CDAE08CE4 /* Pods_AppStoreSearchBindableVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1413FD3424431F5400E4C452 /* AppStoreSearchBindableVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreSearchBindableVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1413FD3724431F5400E4C452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1413FD3924431F5400E4C452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1413FD3B24431F5400E4C452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1413FD3E24431F5400E4C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1413FD4024431F5600E4C452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1413FD4324431F5600E4C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1413FD4524431F5600E4C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1413FD4B24431F7200E4C452 /* AppsSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsSearchController.swift; sourceTree = "<group>"; };
+		1413FD4D2443201200E4C452 /* BaseListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
+		1413FD4F2443201E00E4C452 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		1413FD512443203400E4C452 /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		1413FD532443204E00E4C452 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		1413FD552443205900E4C452 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1413FD572443208E00E4C452 /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		1413FD8C2443341E00E4C452 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		1413FD8E2443373300E4C452 /* AppsSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSearchViewModel.swift; sourceTree = "<group>"; };
+		342ECDCA05D4010CDAE08CE4 /* Pods_AppStoreSearchBindableVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStoreSearchBindableVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCC40158618840B0FF4A3C0 /* Pods-AppStoreSearchBindableVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreSearchBindableVM.release.xcconfig"; path = "Target Support Files/Pods-AppStoreSearchBindableVM/Pods-AppStoreSearchBindableVM.release.xcconfig"; sourceTree = "<group>"; };
+		D8E9376119422DC9D072A4F8 /* Pods-AppStoreSearchBindableVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreSearchBindableVM.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreSearchBindableVM/Pods-AppStoreSearchBindableVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1708353FAA5A413DDE316D4D /* Pods_AppStoreSearchBindableVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				1413FD3624431F5400E4C452 /* AppStoreSearchBindableVM */,
 				1413FD3524431F5400E4C452 /* Products */,
+				DF5D0593089E082D7F4916E6 /* Pods */,
+				1A43DB9301FF2E9837F42503 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,80 @@
 		1413FD3624431F5400E4C452 /* AppStoreSearchBindableVM */ = {
 			isa = PBXGroup;
 			children = (
+				1413FD9024433D6D00E4C452 /* ViewModel */,
+				1413FD5C244325CB00E4C452 /* Service */,
+				1413FD5B2443234400E4C452 /* Model */,
+				1413FD5A2443232900E4C452 /* View */,
+				1413FD592443231D00E4C452 /* ViewController */,
 				1413FD3724431F5400E4C452 /* AppDelegate.swift */,
 				1413FD3924431F5400E4C452 /* SceneDelegate.swift */,
-				1413FD3B24431F5400E4C452 /* ViewController.swift */,
 				1413FD3D24431F5400E4C452 /* Main.storyboard */,
 				1413FD4024431F5600E4C452 /* Assets.xcassets */,
 				1413FD4224431F5600E4C452 /* LaunchScreen.storyboard */,
 				1413FD4524431F5600E4C452 /* Info.plist */,
 			);
 			path = AppStoreSearchBindableVM;
+			sourceTree = "<group>";
+		};
+		1413FD592443231D00E4C452 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1413FD4B24431F7200E4C452 /* AppsSearchController.swift */,
+				1413FD4D2443201200E4C452 /* BaseListController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1413FD5A2443232900E4C452 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1413FD512443203400E4C452 /* SearchResultCell.swift */,
+				1413FD572443208E00E4C452 /* VerticalStackView.swift */,
+				1413FD532443204E00E4C452 /* UIView+Layout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1413FD5B2443234400E4C452 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1413FD4F2443201E00E4C452 /* SearchResult.swift */,
+				1413FD8C2443341E00E4C452 /* Bindable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1413FD5C244325CB00E4C452 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1413FD552443205900E4C452 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1413FD9024433D6D00E4C452 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1413FD8E2443373300E4C452 /* AppsSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A43DB9301FF2E9837F42503 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342ECDCA05D4010CDAE08CE4 /* Pods_AppStoreSearchBindableVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5D0593089E082D7F4916E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E9376119422DC9D072A4F8 /* Pods-AppStoreSearchBindableVM.debug.xcconfig */,
+				ABCC40158618840B0FF4A3C0 /* Pods-AppStoreSearchBindableVM.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1413FD4824431F5600E4C452 /* Build configuration list for PBXNativeTarget "AppStoreSearchBindableVM" */;
 			buildPhases = (
+				CEAC6ACA430D85AF567F08DD /* [CP] Check Pods Manifest.lock */,
 				1413FD3024431F5400E4C452 /* Sources */,
 				1413FD3124431F5400E4C452 /* Frameworks */,
 				1413FD3224431F5400E4C452 /* Resources */,
+				2B298B5A6EFB86FBE54A5EC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +223,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B298B5A6EFB86FBE54A5EC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStoreSearchBindableVM/Pods-AppStoreSearchBindableVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStoreSearchBindableVM/Pods-AppStoreSearchBindableVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppStoreSearchBindableVM/Pods-AppStoreSearchBindableVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEAC6ACA430D85AF567F08DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppStoreSearchBindableVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1413FD3024431F5400E4C452 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1413FD3C24431F5400E4C452 /* ViewController.swift in Sources */,
+				1413FD8F2443373300E4C452 /* AppsSearchViewModel.swift in Sources */,
+				1413FD8D2443341E00E4C452 /* Bindable.swift in Sources */,
+				1413FD542443204E00E4C452 /* UIView+Layout.swift in Sources */,
+				1413FD522443203400E4C452 /* SearchResultCell.swift in Sources */,
+				1413FD4E2443201200E4C452 /* BaseListController.swift in Sources */,
 				1413FD3824431F5400E4C452 /* AppDelegate.swift in Sources */,
+				1413FD562443205900E4C452 /* Service.swift in Sources */,
 				1413FD3A24431F5400E4C452 /* SceneDelegate.swift in Sources */,
+				1413FD502443201E00E4C452 /* SearchResult.swift in Sources */,
+				1413FD4C24431F7200E4C452 /* AppsSearchController.swift in Sources */,
+				1413FD582443208E00E4C452 /* VerticalStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		1413FD4924431F5600E4C452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E9376119422DC9D072A4F8 /* Pods-AppStoreSearchBindableVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +441,7 @@
 		};
 		1413FD4A24431F5600E4C452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCC40158618840B0FF4A3C0 /* Pods-AppStoreSearchBindableVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
